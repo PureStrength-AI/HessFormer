@@ -1,0 +1,6 @@
+torch>=2.2
+transformers>=4.39
+datasets
+tqdm
+functorch
+matplotlib

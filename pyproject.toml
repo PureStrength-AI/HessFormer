@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hessformer"
+version = "0.1.0"
+description = "Distributed Hessian spectral analysis for Transformer models"
+authors = [{name = "HessFormer Devs"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.2",
+    "transformers>=4.39",
+    "datasets",
+    "tqdm",
+    "functorch",
+    "matplotlib"
+]
+
+[project.scripts]
+hessformer = "hessformer.cli:main"
