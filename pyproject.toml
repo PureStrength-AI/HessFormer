@@ -15,7 +15,6 @@ dependencies = [
     "transformers>=4.39",
     "datasets",
     "tqdm",
-    "functorch",
     "matplotlib"
 ]
 

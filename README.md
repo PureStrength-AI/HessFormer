@@ -1,7 +1,7 @@
 # HessFormer
 
 Distributed Hessian spectral density estimation for Transformer models,
-built on top of PyTorch, HuggingFace `transformers`, and functorch.
+built on top of PyTorch, HuggingFace `transformers`.
 
 ```python
 import hessformer as hf

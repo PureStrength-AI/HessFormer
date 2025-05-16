@@ -23,14 +23,13 @@ Requires-Dist: torch>=2.2
 Requires-Dist: transformers>=4.39
 Requires-Dist: datasets
 Requires-Dist: tqdm
-Requires-Dist: functorch
 Requires-Dist: matplotlib
 Dynamic: license-file
 
 # HessFormer
 
 Distributed Hessian spectral density estimation for Transformer models,
-built on top of PyTorch, HuggingFace `transformers`, and functorch.
+built on top of PyTorch, HuggingFace `transformers`.
 
 ```python
 import hessformer as hf
