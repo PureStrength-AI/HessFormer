@@ -1,2 +1,0 @@
-[console_scripts]
-hessformer = hessformer.cli:main
