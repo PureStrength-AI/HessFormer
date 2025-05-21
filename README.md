@@ -1,5 +1,21 @@
 ## README.md
 
+## Cite
+
+If you use HessFormer, please cite:
+
+```bibtex
+@misc{granziol2025hessformerhessiansfoundationscale,
+  title={HessFormer: Hessians at Foundation Scale},
+  author={Diego Granziol},
+  year={2025},
+  eprint={2505.11564},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2505.11564},
+}
+```
+
 # lanczos_spectrum
 
 A tiny, single-file package for **approximate Hessian spectral analysis** of very large Transformer language-models via the symmetric Lanczos algorithm.
