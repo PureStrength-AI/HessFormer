@@ -15,7 +15,8 @@ dependencies = [
     "transformers>=4.39",
     "datasets",
     "tqdm",
-    "matplotlib"
+    "matplotlib",
+    "accelerate"
 ]
 
 [project.scripts]
