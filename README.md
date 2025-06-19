@@ -30,7 +30,7 @@ A tiny, single-file package for **approximate Hessian spectral analysis** of ver
 
 ```bash
 git clone <repo-url>
-cd lanczos_spectrum
+cd HessFormer
 pip install -e .
 ````
 
